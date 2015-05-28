@@ -1,17 +1,31 @@
-# reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js)
+# Git Workflow Slides
 
-A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
+#### workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+* negativbeispiel (nur ein branch)
+* arbeit in branches & git flow (grob umreisen, vorteile, nachteile)
+* wie? tools (cmd, mac, windows)
+	* branch anlegen (auf welcher basis?)
+	* branch wechseln
+	* merge (in master / vom dev / in dev) + conflict solving in editor
+	* tags
+	* stash
+* beispiel (graphisch & console)
+	1. projekt auschecken (in bestimmtem branch)
+	1. neues feature
+	1. währenddessen dev änderungen übernehmen
+	1. feature beenden (merge in dev)
+* zusammenfassung des workflows
+* fragen
+* tool links
 
-reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). It's best viewed in a modern browser but [fallbacks](https://github.com/hakimel/reveal.js/wiki/Browser-Support) are available to make sure your presentation can still be viewed elsewhere.
+#### struktur
+* master (version tags)
+* hotfix
+* dev
+* feature (größere änderungen)
 
 
-#### More reading:
-- [Installation](#installation): Step-by-step instructions for getting reveal.js running on your computer.
-- [Changelog](https://github.com/hakimel/reveal.js/releases): Up-to-date version history.
-- [Examples](https://github.com/hakimel/reveal.js/wiki/Example-Presentations): Presentations created with reveal.js, add your own!
-- [Browser Support](https://github.com/hakimel/reveal.js/wiki/Browser-Support): Explanation of browser support and fallbacks.
-- [Plugins](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware): A list of plugins that can be used to extend reveal.js.
-
+----
 ## Online Editor
 
 Presentations are written using HTML or Markdown but there's also an online editor for those of you who prefer a graphical interface. Give it a try at [http://slides.com](http://slides.com).
